@@ -5,6 +5,8 @@
     <head>
         <meta charset="UTF-8">
         <title>メッセージボード</title>
+        <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
+        <link rel="stylesheet" href="<c:url value='/css/style.css' />">
     </head>
     <body>
         <div id="wrapper">
@@ -15,7 +17,7 @@
                 ${param.content}
             </div>
             <div id="footer">
-                by Rin Ogawa.
+                by Taro Kirameki.
             </div>
         </div>
     </body>
